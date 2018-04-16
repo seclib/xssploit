@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>xssploit.xssAnalyzer</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="xssploit-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="xssploit-module.html">Module&nbsp;xssploit</a> ::
+        Class&nbsp;xssAnalyzer
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="xssploit.xssAnalyzer-class.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS DESCRIPTION ==================== -->
+<h1 class="epydoc">Class xssAnalyzer</h1><p class="nomargin-top"><span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer">source&nbsp;code</a></span></p>
+<p>Request forgery, filter detection and avoidance</p>
+
+<!-- ==================== INSTANCE METHODS ==================== -->
+<a name="section-InstanceMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Instance Methods</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-InstanceMethods"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__init__"></a><span class="summary-sig-name">__init__</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">wwwIOInstance</span>=<span class="summary-sig-default"><code class="variable-quote">'</code><code class="variable-string"></code><code class="variable-quote">'</code></span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer.__init__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="xssploit.xssAnalyzer-class.html#setAnalysisMode" class="summary-sig-name">setAnalysisMode</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">mode</span>)</span><br />
+      Defines the number of parameters to put together in a request</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer.setAnalysisMode">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="xssploit.xssAnalyzer-class.html#_combineParams" class="summary-sig-name" onclick="show_private();">_combineParams</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">k</span>)</span><br />
+      Reorders and sort any unique combinations of the list</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer._combineParams">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="xssploit.xssAnalyzer-class.html#_generatePattern" class="summary-sig-name" onclick="show_private();">_generatePattern</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Generates a pattern</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer._generatePattern">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="xssploit.xssAnalyzer-class.html#_generateRequests" class="summary-sig-name" onclick="show_private();">_generateRequests</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">formID</span>,
+        <span class="summary-sig-arg">params</span>)</span><br />
+      Defines all the requests to test</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer._generateRequests">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="xssploit.xssAnalyzer-class.html#analyzeFormDB" class="summary-sig-name">analyzeFormDB</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">formDB</span>,
+        <span class="summary-sig-arg">permCheck</span>=<span class="summary-sig-default">1</span>)</span><br />
+      Performs the first analysis on the formDB</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer.analyzeFormDB">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="xssploit.xssAnalyzer-class.html#_escapeContext" class="summary-sig-name" onclick="show_private();">_escapeContext</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">xssObject</span>)</span><br />
+      Try to escape a bad context by looking in the bad characters.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer._escapeContext">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="xssploit.xssAnalyzer-class.html#analyzeXSS" class="summary-sig-name">analyzeXSS</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">xssObject</span>)</span><br />
+      Analyses an XSS</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer.analyzeXSS">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="xssploit.xssAnalyzer-class.html#_xcombinations" class="summary-sig-name" onclick="show_private();">_xcombinations</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">items</span>,
+        <span class="summary-sig-arg">n</span>)</span><br />
+      Create cominations of items in a list</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer._xcombinations">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="xssploit.xssAnalyzer-class.html#_checkXss" class="summary-sig-name" onclick="show_private();">_checkXss</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">formID</span>,
+        <span class="summary-sig-arg">params</span>)</span><br />
+      Checks for an XSS in a page</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer._checkXss">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="xssploit.xssAnalyzer-class.html#_checkPermanentXss" class="summary-sig-name" onclick="show_private();">_checkPermanentXss</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">foundPatterns</span>)</span><br />
+      Checks if a permanent XSS exists on the website</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer._checkPermanentXss">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="xssploit.xssAnalyzer-class.html#_checkBadChars" class="summary-sig-name" onclick="show_private();">_checkBadChars</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">xssObject</span>)</span><br />
+      Checks an XSS for filtered characters</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer._checkBadChars">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="xssploit.xssAnalyzer-class.html#_loadKeywords" class="summary-sig-name" onclick="show_private();">_loadKeywords</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Loads the keywords</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer._loadKeywords">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="xssploit.xssAnalyzer-class.html#_getContext" class="summary-sig-name" onclick="show_private();">_getContext</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">htmlSoup</span>,
+        <span class="summary-sig-arg">pattern</span>)</span><br />
+      Gets the context the pattern fits in</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer._getContext">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="xssploit.xssAnalyzer-class.html#_checkContext_ng" class="summary-sig-name" onclick="show_private();">_checkContext_ng</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">xssObject</span>)</span><br />
+      Checks the context our XSS fills in - New version</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer._checkContext_ng">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="xssploit.xssAnalyzer-class.html#_checkContext" class="summary-sig-name" onclick="show_private();">_checkContext</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">xssObject</span>)</span><br />
+      Checks the context our XSS fills in - DEPRECATED</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer._checkContext">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS VARIABLES ==================== -->
+<a name="section-ClassVariables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Class Variables</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-ClassVariables"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PATTERNLENGTH"></a><span class="summary-name">PATTERNLENGTH</span> = <code title="15">15</code><br />
+      Sets the number of characters in the pattern
+    </td>
+  </tr>
+</table>
+<!-- ==================== INSTANCE VARIABLES ==================== -->
+<a name="section-InstanceVariables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Instance Variables</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-InstanceVariables"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="_params"></a><span class="summary-name">_params</span><br />
+      stores the param tests
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="_analysisLevel"></a><span class="summary-name">_analysisLevel</span><br />
+      Sets the scanning level - 2 by default
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="badChars"></a><span class="summary-name">badChars</span><br />
+      Stores the bad chars to check
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="_formDB"></a><span class="summary-name">_formDB</span><br />
+      Stores the formDB
+    </td>
+  </tr>
+</table>
+<!-- ==================== METHOD DETAILS ==================== -->
+<a name="section-MethodDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Method Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-MethodDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="setAnalysisMode"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">setAnalysisMode</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">mode</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer.setAnalysisMode">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Defines the number of parameters to put together in a request</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>mode</code></strong> (Integer) - The maximum number of parameters to put in a request</li>
+    </ul></dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="_combineParams"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">_combineParams</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">k</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer._combineParams">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Reorders and sort any unique combinations of the list</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>k</code></strong> (list) - List of parameters to sort</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>A list containing the randomized fields</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="_generatePattern"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">_generatePattern</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer._generatePattern">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Generates a pattern</p>
+  <dl class="fields">
+    <dt>Returns:</dt>
+        <dd>a pattern like (xxxxxxxxxxxxxxx)</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="_generateRequests"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">_generateRequests</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">formID</span>,
+        <span class="sig-arg">params</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer._generateRequests">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Defines all the requests to test</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>formID</code></strong> (Integer) - The form ID for the requests</li>
+        <li><strong class="pname"><code>params</code></strong> (List) - the parameter list</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>The requests in a dictionnary form</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="analyzeFormDB"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">analyzeFormDB</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">formDB</span>,
+        <span class="sig-arg">permCheck</span>=<span class="sig-default">1</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer.analyzeFormDB">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Performs the first analysis on the formDB</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>formDB</code></strong> (formDB) - The formDB instance to analyze</li>
+        <li><strong class="pname"><code>permCheck</code></strong> (Integer) - Tells if XSSploit should check for permanent XSS 0=No 1=Yes</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>A list of xss instances (if found)</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="_escapeContext"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">_escapeContext</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">xssObject</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer._escapeContext">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Try to escape a bad context by looking in the bad characters. Updates 
+  the escapeHeader and escapeTrailer attributes It will modify the escaped 
+  attribute if yes</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>xssObject</code></strong> (xss) - The xss instance to check</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>1 if successfull, 0 otherwise</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="analyzeXSS"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">analyzeXSS</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">xssObject</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer.analyzeXSS">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Analyses an XSS</p>
+  <ul>
+    <li>
+      Checks if some characters are refused
+    </li>
+    <li>
+      Checks if some keywords are refused
+    </li>
+    <li>
+      Analyzes the context
+    </li>
+  </ul>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="_xcombinations"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">_xcombinations</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">items</span>,
+        <span class="sig-arg">n</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer._xcombinations">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Create cominations of items in a list</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>items</code></strong> (List) - The items to combinate</li>
+        <li><strong class="pname"><code>n</code></strong> (Integer) - The number of items in the shuffled list</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>A list containing lists with the combinated elements</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="_checkXss"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">_checkXss</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">formID</span>,
+        <span class="sig-arg">params</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer._checkXss">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Checks for an XSS in a page</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>formID</code></strong> (Integer) - The form ID</li>
+        <li><strong class="pname"><code>formID</code></strong> (Integer) - The parameters</li>
+        <li><strong class="pname"><code>params</code></strong> (List)</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>an xss instance if the pattern is found</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="_checkPermanentXss"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">_checkPermanentXss</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">foundPatterns</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer._checkPermanentXss">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Checks if a permanent XSS exists on the website</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>foundPatterns</code></strong> (List) - The patterns found on the site</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>A list containing instances of the xss class</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="_checkBadChars"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">_checkBadChars</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">xssObject</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer._checkBadChars">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Checks an XSS for filtered characters</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>xssObject</code></strong> (xss) - An instance of the XSS class</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>The modified xss instance</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="_loadKeywords"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">_loadKeywords</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer._loadKeywords">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Loads the keywords</p>
+  <ul>
+    <li>
+      Some basic chars are fixed in the application
+    </li>
+    <li>
+      It's possible to add more keywords by adding them in the keywords.txt
+      file (one word per line)
+    </li>
+    <li>
+      If there is a word, creates a string with a tabulation in it to 
+      bypass some filters
+    </li>
+  </ul>
+  <dl class="fields">
+    <dt>Returns:</dt>
+        <dd>Fills the badChars property of this instance</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="_getContext"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">_getContext</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">htmlSoup</span>,
+        <span class="sig-arg">pattern</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer._getContext">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Gets the context the pattern fits in</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>htmlSoup</code></strong> (BeautifulSoup) - The HTML code, in BeautifulSoup</li>
+        <li><strong class="pname"><code>pattern</code></strong> (String) - Then pattern to match</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>A list of [type, context] elements</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="_checkContext_ng"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">_checkContext_ng</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">xssObject</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer._checkContext_ng">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Checks the context our XSS fills in - New version</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>xssObject</code></strong> (xss) - An instance of the XSS class</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>The modified xss instance</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="_checkContext"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">_checkContext</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">xssObject</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="xssploit-pysrc.html#xssAnalyzer._checkContext">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Checks the context our XSS fills in - DEPRECATED</p>
+  <dl class="fields">
+    <dt>Parameters:</dt>
+    <dd><ul class="nomargin-top">
+        <li><strong class="pname"><code>xssObject</code></strong> (xss) - An instance of the XSS class</li>
+    </ul></dd>
+    <dt>Returns:</dt>
+        <dd>The modified xss instance</dd>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="xssploit-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+      <th class="navbar" width="100%"></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0 on Wed Mar 25 13:32:25 2009
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

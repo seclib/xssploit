@@ -1,0 +1,7 @@
+.shtml
+.html
+.htm
+.php3
+.php
+.aspx
+.asp
